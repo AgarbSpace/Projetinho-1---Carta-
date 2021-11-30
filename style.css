@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%) ;
+    font-family: 'Outfit';
+    font-style: normal;
+}
+
+.carta{
+    display: flex;
+    justify-content: center;
+
+    margin: 25% auto;
+
+    width: 350px;
+
+    background-color: hsl(216, 50%, 16%);
+
+    border-radius: 10px;
+}
+
+.conteudoDaCarta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 300px;
+}
+
+.conteudoDaCarta .imagemPrincipal{
+    width: 300px;
+    height: 300px;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+}
+
+.titulo{
+    width: 300px;
+}
+
+.conteudoDaCarta h1{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+
+    margin-bottom: 20px;
+}
+
+.conteudoDaCarta .descricao{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.miniContainer{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.miniContainer .ciano{
+    font-weight: 600;
+
+    color: hsl(178, 100%, 50%);
+
+    margin-left: 5px;
+}
+
+.miniContainer .spanRelogio{
+    color: hsl(215, 51%, 70%);
+    margin-left: 5px;
+}
+
+.flex div .icone{
+    width: 13px;
+    height: 20px;
+}
+
+.flex div .iconeRelogio{
+    width: 20px;
+    height: 20px;
+
+}
+.borda{
+    width: 300px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+footer{
+    width: 300px;
+
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+}
+
+footer span{
+    margin-left: 15px;
+
+    color: hsl(215, 51%, 70%);
+}
+
+strong{
+    color: #FFFFFF;
+}
+
+footer :nth-child(1){
+    width: 40px;
+    height: 40px;
+}
